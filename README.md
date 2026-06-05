@@ -2,6 +2,7 @@
 
 A ball-by-ball win probability model for IPL second innings chases - deployed as a live Streamlit web app. Enter the current match situation and get an instant win probability for the chasing team, similar to what Cricbuzz and Hotstar show during a live match.
 
+*[Live App →](https://vd-ipl-win-predictor.streamlit.app/)* 
 
 ---
 
@@ -76,7 +77,6 @@ Model serialized with `joblib` and deployed via Streamlit Community Cloud.
 
 The chart below shows how win probability evolved ball-by-ball for a sample match from the test set. Probability dips on wickets and rises with boundaries - exactly like live broadcast overlays.
 
-![Win Probability Chart](win_probability_chart.png) *(add screenshot here)*
 
 ---
 
